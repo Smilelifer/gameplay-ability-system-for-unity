@@ -176,7 +176,7 @@ namespace UIGen
         internal interface I_Setting { }
         internal struct Setting_Proxy
         {
-            internal readonly GComponent Target { get; }
+            internal readonly GComponent Target { get; }        
             internal Setting_Proxy(GComponent o) => Target = o;
             
             
